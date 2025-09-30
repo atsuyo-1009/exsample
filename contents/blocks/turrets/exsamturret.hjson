@@ -1,0 +1,55 @@
+name: 〇〇
+description: 
+"説明"
+  type: itemTurret　
+category: turret
+size: 1
+  health: 
+  targetable: true　
+  squareSprites: false　
+  targetAir: false
+  hasPower: false
+  hasLiquid: true
+  liquidCapacity: 50
+  itemCapacity: 50
+  hasItem: true
+  reload: 5
+  chargeTime: 0　  
+  range: 160　
+  recoil: 0.5　
+  inaccuracy: 2
+  xRand: 0　
+  ammoTypes: 
+{
+  copper: {
+  type: basicBulletType　
+  width: 5
+  drawsize: 3
+  hitSize: 3
+  bulletSprite:
+  frontColor: 653200　
+  backColor: 653200
+  ammoMultiPlier: 10
+  reloadMultiPlier: 10
+  lifetime: 80　
+  speed: 2　
+  weaveMag: 0
+  weaveScale: 0
+  bulletShrink: 0
+damage: 300
+hitEffect: none
+absorbable: true
+pierceArmor: false
+}
+}
+BuildVisibillity: shown 
+buildTime: 80
+research: {
+parent: duo
+requirements: [
+copper/ 3　
+]
+}
+requirements: [
+copper/ 10 
+]　
